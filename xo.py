@@ -39,11 +39,11 @@ class Solution:
             x = 0
             o = 0
             for i in string:
-                if(string[i] == 'X'):
+                if i == 'X':
                     x+=1
-                elif(stirng[i] == "O"):
+                elif i == "O":
                     o+=1
-            if x==o
+            if x==o:
                 return True
             return False
             #TODO: Write code below to returnn a boolean value with the solution to the prompt.
